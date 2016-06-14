@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Mono);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	color: #010062;
+	background-color: #E4DEFF;
+	font-family: 'PT Mono';
+	font-size: 16px;
+	padding: 30px;
+	line-height: 2em;
+}
+#brand {
+	text-align: center;
+    padding: 20px;
+}
+#four_column {
+    padding: 20px;
+}
+#left {
+    padding: 20px;
+    float: left;
+    width: 10%;
+}
+#menswear {
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+#womenswear {
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+#right {
+    float: right;
+    width: 20%;
+}
+h1,h3 {
+	font-family: 'Oswald', sans-serif;
+}
+h1 {
+	font-size: 7.75em;
+	text-align: center;
+	letter-spacing: 4px;
+	padding: 74px;
+}
+p {
+	margin: 1em auto;
+	text-align: center;
+}
+a {
+	color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#logo {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+	float: left;
+}
+
+#tagline {
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	padding-top: 2em;
+}
+.vision {
+	width: 40em;
+}
+ul {
+	padding-left: 20px;
+	display: table;
+}
