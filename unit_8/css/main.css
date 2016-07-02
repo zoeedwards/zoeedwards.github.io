@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Mono);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+	color: #010062;
+	background-color: #E4DEFF;
+	font-family: 'PT Mono';
+	font-size: 16px;
+	padding: 20px;
+	line-height: 2em;
+}
+a {
+	color: inherit;
+	display: block;
+}
+#brand {
+	text-align: center;
+    padding: 20px;
+}
+#left {
+    padding: 20px;
+    float: left;
+    width: 10%;
+}
+#menswear {
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+#womenswear {
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+#right {
+    float: right;
+    width: 20%;
+    display: block;
+}
+h1,h3 {
+	font-family: 'Oswald', sans-serif;
+}
+h1 {
+	font-size: 7.75em;
+	text-align: center;
+	letter-spacing: 4px;
+	padding: 74px;
+}
+p {
+	margin: 1em auto;
+	text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#logo {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	float: left;
+}
+
+#tagline {
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	padding-top: 2em;
+}
+
+
+@media only screen and (max-width: 1880px) {
+	#right {
+		width: 100%;
+		clear: both;
+	}
+	#menswear {
+	    padding: 20px;
+	    float: left;
+	    width: 40%;
+	}
+	#womenswear {
+	    padding: 20px;
+	    float: left;
+	    width: 40%;
+	}
+}
+
+@media only screen and (max-width: 1316px) {
+	#left{
+		float: none;
+		width: 100%;
+	}
+	#logo {
+		width: 10%;
+		display: block;
+		margin: 0 auto;
+		float: left;
+	}
+	#menswear {
+	    width: 45%;
+	}
+	#womenswear {
+	    width: 45%;
+	}
+	a {
+		text-decoration: none;
+		text-align: center;
+		float: left;
+		margin: 0 auto;
+		padding: 20px;
+	}
+}
+@media only screen and (max-width: 856px) {
+	#menswear {
+	    width: 100%;
+	}
+	#womenswear {
+	    width: 100%;
+	}	
+}
+@media only screen and (max-width: 685px) {
+	 #logo {
+ 		width: 60px;
+	}
+	h1 {
+		padding: 10%;
+	}	
+}		
